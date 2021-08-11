@@ -1,21 +1,15 @@
 package com.educandoweb.coursedois.entities;
 
 import java.io.Serializable;
-<<<<<<< HEAD
 import java.util.HashSet;
 import java.util.Set;
-=======
->>>>>>> f615e7f7f49a98666f5bcf8d449d359dfe240a08
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-<<<<<<< HEAD
 import javax.persistence.Transient;
-=======
->>>>>>> f615e7f7f49a98666f5bcf8d449d359dfe240a08
 
 @Entity
 @Table(name = "tb_category")
@@ -27,12 +21,9 @@ public class Category implements Serializable {
 	private Long id;
 	private String name;
 	
-<<<<<<< HEAD
 	@Transient
 	private Set<Product> products = new HashSet<>();
 	
-=======
->>>>>>> f615e7f7f49a98666f5bcf8d449d359dfe240a08
 	public Category() {
 		
 	}
@@ -58,14 +49,11 @@ public class Category implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
-<<<<<<< HEAD
 	
 	public Set<Product> getProducts() {
 		return products;
 	}
 	
-=======
->>>>>>> f615e7f7f49a98666f5bcf8d449d359dfe240a08
 
 	@Override
 	public int hashCode() {
@@ -91,10 +79,7 @@ public class Category implements Serializable {
 			return false;
 		return true;
 	}
-<<<<<<< HEAD
 
-=======
->>>>>>> f615e7f7f49a98666f5bcf8d449d359dfe240a08
 	
 	
 }
